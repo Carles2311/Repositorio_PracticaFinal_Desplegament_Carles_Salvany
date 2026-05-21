@@ -81,7 +81,10 @@ $cv = [
 
     <h1><?php echo $cv["nombre"]; ?></h1>
     <h3><?php echo $cv["titulo"]; ?></h3>
-
+    <img
+src="https://ik.imagekit.io/TUUSUARIO/foto.jpg?tr=w-300,h-300,c-maintain_ratio,f-webp,q-80"
+alt="perfil"
+/>
     <div class="section">
         <p><strong>Email:</strong> <?php echo $cv["email"]; ?></p>
         <p><strong>Teléfono:</strong> <?php echo $cv["telefono"]; ?></p>
