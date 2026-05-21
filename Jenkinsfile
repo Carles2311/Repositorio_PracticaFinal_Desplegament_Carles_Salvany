@@ -5,7 +5,7 @@ pipeline {
 
         stage('Descargar código') {
             steps {
-                git 'https://github.com/Carles2311/Repositorio_PracticaFinal_Desplegament_Carles_Salvany.git'
+                git branch: 'main', url:'https://github.com/Carles2311/Repositorio_PracticaFinal_Desplegament_Carles_Salvany.git'
             }
         }
 
